@@ -1,0 +1,34 @@
+﻿Построение начато 12.12.2017 19:38:50.
+     1>Проект "A:\Users\SU2AR\Desktop\3\SKVORTSOV\grafika_lab2-master\RYBA\OpenGLrememberProj\OpenGLrememberProj.vcxproj" в узле 2 (целевые объекты Build).
+       Файл проекта содержит ToolsVersion="14.0". Возможно, этот набор инструментов неизвестен или отсутствует (в этом случае проблему можно устранить, установив подходящую версию MSBuild), либо для данной сборки определено конкретное значение ToolsVersion в параметрах политики. Проект обрабатывается как имеющий ToolsVersion="4.0". Дополнительные сведения см. по ссылке http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         A:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt MyOGL.cpp Object.cpp OpenGLrememberProj.cpp Primitives.cpp PrimitivesStatic.cpp Render.cpp
+         Render.cpp
+     1>a:\users\su2ar\desktop\3\skvortsov\grafika_lab2-master\ryba\openglrememberproj\myogl.h(92): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>a:\users\su2ar\desktop\3\skvortsov\grafika_lab2-master\ryba\openglrememberproj\render.cpp(404): warning C4101: my: неиспользованная локальная переменная
+     1>a:\users\su2ar\desktop\3\skvortsov\grafika_lab2-master\ryba\openglrememberproj\render.cpp(404): warning C4101: mx: неиспользованная локальная переменная
+     1>a:\users\su2ar\desktop\3\skvortsov\grafika_lab2-master\ryba\openglrememberproj\render.cpp(404): warning C4101: vp: неиспользованная локальная переменная
+         PrimitivesStatic.cpp
+         Primitives.cpp
+         OpenGLrememberProj.cpp
+     1>a:\users\su2ar\desktop\3\skvortsov\grafika_lab2-master\ryba\openglrememberproj\myogl.h(92): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+         Object.cpp
+         MyOGL.cpp
+     1>a:\users\su2ar\desktop\3\skvortsov\grafika_lab2-master\ryba\openglrememberproj\myogl.h(92): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+         Создание кода...
+       ResourceCompile:
+         A:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\OpenGLrememberProj.res" OpenGLrememberProj.rc 
+       Link:
+         A:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"A:\Users\SU2AR\Desktop\3\SKVORTSOV\grafika_lab2-master\RYBA\Debug\OpenGLrememberProj.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"A:\Users\SU2AR\Desktop\3\SKVORTSOV\grafika_lab2-master\RYBA\Debug\OpenGLrememberProj.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"A:\Users\SU2AR\Desktop\3\SKVORTSOV\grafika_lab2-master\RYBA\Debug\OpenGLrememberProj.lib" /MACHINE:X86 Debug\OpenGLrememberProj.res
+         Debug\MyOGL.obj
+         Debug\Object.obj
+         Debug\OpenGLrememberProj.obj
+         Debug\Primitives.obj
+         Debug\PrimitivesStatic.obj
+         Debug\Render.obj
+         OpenGLrememberProj.vcxproj -> A:\Users\SU2AR\Desktop\3\SKVORTSOV\grafika_lab2-master\RYBA\Debug\OpenGLrememberProj.exe
+     1>Построение проекта "A:\Users\SU2AR\Desktop\3\SKVORTSOV\grafika_lab2-master\RYBA\OpenGLrememberProj\OpenGLrememberProj.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:04.85
